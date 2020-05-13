@@ -1,0 +1,28 @@
+[Package]
+version: 1
+depends: 
+
+[Product]
+type: localboot
+id: teska-teams
+name: teska-teams
+description: Teams
+advice: 
+version: 1.0
+priority: 0
+licenseRequired: False
+productClasses: 
+setupScript: setup.opsiscript
+uninstallScript: uninstall.opsiscript
+updateScript: 
+alwaysScript: 
+onceScript: 
+customScript: 
+userLoginScript: 
+
+[Changelog]
+teams (1.0-1) stable; urgency=low
+
+	* initial: created by opsi-setup-detector
+
+ -- opsisetupdetector.exe <info@uib.de>  12.05.2020 18:32:42
